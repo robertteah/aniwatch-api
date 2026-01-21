@@ -2,7 +2,7 @@ services:
   - type: web
     name: aniwatch-api
     runtime: docker
-    repo: https://github.com/ghoshRitesh12/aniwatch-api.git
+    repo: https://github.com/robertteah/aniwatch-api
     plan: free
     branch: main
     envVars:
