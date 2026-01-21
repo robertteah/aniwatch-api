@@ -5,6 +5,20 @@ services:
     repo: https://github.com/robertteah/aniwatch-api.git
     plan: free
     branch: main
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    # Auto-deploy on push to main branch
+    autoDeploy: true
+    # Health check endpoint
+    healthCheckPath: /health
     envVars:
       - key: PORT
         value: 4000
+      - key: NODE_ENV
+        value: production
+      # Add optional environment variables below
+      # - key: ANIWATCH_API_HOSTNAME
+      #   value: your-hostname.onrender.com
+      # - key: REDIS_URL
+      #   value: rediss://red-d2igsc6mcj7s73ccklqg:opNIfOxczdCOVki43QKAyPbdbJVkZifZ@oregon-keyvalue.render.com:6379
+
