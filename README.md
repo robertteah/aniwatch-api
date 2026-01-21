@@ -182,7 +182,7 @@ Deploy your own instance of Aniwatch API on Render.
 >
 > When deploying to render, you must set the env named `ANIWATCH_API_DEPLOYMENT_ENV` to `render` for proper functioning of the API.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/grobertteah/aniwatch-api)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/robertteah/aniwatch-api)
 
 ## <span id="documentation">📚 Documentation</span>
 
